@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8" />
+    <title>Bunny Hop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+    <!-- This contains the header -->
+   <div class="header">
+       <h1>How Far Can You Hop?</h1>
+   </div>
+
+   <!-- This contains the game -->
+   <div class="game">
+       <div id="instructions">
+           <p>You will be given a random number at the beginning of the game. This number corresponds with the exact number of hops to win.</p>
+           <p>There are four bunnies below. Each bunny represents a specific amount of hops. By clicking on a bunny, you add this many hops to the score.</p>
+           <p>You win the game by the hops you take matching the random number of hops needed (identified at the beginning of each round). You lose by surpassing this number.</p>
+           <p>The "hop" value of each bunny is hidden from you until you click on it.</p>
+           <p>Each time the game starts, the game will change the value of each bunny as well as the number of hops you need to win.</p>
+           <p>Do you have what it takes?</p>
+       </div>
+
+       <div class="display">
+           <div id="generator"><span id="randomNumber"></span></div>
+           <div id="gametracker">
+               <div id="wins">
+
+               </div>
+               <div id="losses">
+
+               </div>
+           </div>
+       </div>
+
+       <div class="crystals">
+           <img class="bunny" src="assets/images/bunny1.jpg" alt="bunny hopping" height="100px" width="200px">
+           <img class="bunny" src="assets/images/bunny2.jpeg" alt="bunny hopping" height="100px" width="200px">
+           <img class="bunny" src="assets/images/bunny3.jpg" alt="bunny hopping" height="100px" width="200px">
+           <img class="bunny" src="assets/images/bunny4.jpg" alt="bunny hopping" height="100px" width="200px">
+       </div>
+
+       <div id="totalhops">
+           <p><span id="hops"></span></p>
+       </div>
+   </div>
+
+   <footer>
+        <p>© 2018 Sydney Dunlap</p>
+   </footer>
+
+    
+    
+</body>
+</html>
