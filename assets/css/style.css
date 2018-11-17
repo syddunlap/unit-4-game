@@ -1,3 +1,4 @@
+/* Style the header */
 h1 {
     font-size: 50px;
     text-align: center;
@@ -5,22 +6,32 @@ h1 {
     padding-bottom: 10px;
     background-color: skyblue;
     border-bottom: 2px solid black;
+    font-family: 'Fredoka One', cursive;
 }
 
+/* Style the font for the rest of the game page */
+.game {
+    font-family: 'Pontano Sans', sans-serif;
+}
+
+/* Style the instructions box */
 #instructions {
     border: 2px solid skyblue;
     border-radius: 5px;
     text-align: center;
+    margin: 2px 5px 2px 5px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
+/* Style the box with the random number generator and the wins/losses amount */
 .display {
     text-align: center;
     margin-left: 500px;
     margin-right: 500px;
 }
 
+/* Specific style for the random number generator */
 #generator {
     background-color: antiquewhite;
     font-size: 35px;
@@ -31,12 +42,14 @@ h1 {
     border-radius: 5px;
 }
 
+/* Specific style for the wins & losses */
 #gametracker {
     padding-top: 3px;
     padding-bottom: 3px;
     font-size: 25px;
 }
 
+/* Style the total hops div */
 #totalhops {
     font-size: 20px;
     text-align: center;
@@ -48,15 +61,18 @@ h1 {
     padding-bottom: 5px;
 }
 
+/* Style the images */
 .bunny {
     border: 1px solid black;
 }
 
-.column {
-    float: left;
-    width: 50%;
+/* Style the container containing the bunny images */
+.bunnies {
+    margin: auto;
+    display: table;
 }
 
+/* Style the footer */
 footer {
     position: fixed;
     left: 0;

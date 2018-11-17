@@ -6,6 +6,8 @@
     <title>Bunny Hop</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link href="https://fonts.googleapis.com/css?family=Economica|Fredoka+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets/javascript/game.js"></script>
@@ -32,6 +34,7 @@
             <p>Do you have what it takes?</p>
         </div>
 
+        <!-- This contains the random number we're aiming for along with wins and losses as updated during game play -->
         <div class="display">
             <div id="generator"><span id="randomNumber"></span></div>
             <div id="gametracker">
@@ -44,10 +47,12 @@
             </div>
         </div>
 
+        <!-- This contains the total number of hops that get added as we click on the different bunnies. -->
         <div id="totalhops">
             <p><span id="hops"></span></p>
         </div>
 
+        <!-- This contains the different bunny images separated into columns just to layout the page in a grid. -->
         <div class="bunnies">
             <div class="column">
                 <img class="bunny" src="assets/images/bunny1.jpg" alt="bunny hopping" height="200px" width="300px">
@@ -62,6 +67,7 @@
 
     </div>
 
+    <!-- This contains the footer -->
     <footer>
         <p>© 2018 Sydney Dunlap</p>
     </footer>
